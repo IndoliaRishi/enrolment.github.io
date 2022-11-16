@@ -1,9 +1,15 @@
 {
     "applinks": {
-        "apps": [],
-        "details": [{
-            "appID": "2H5GFH3774.com.example.urlSchemePoc",
-            "paths": ["*"]
-        }]
-    }
+            "details": [
+                     {
+                         "appIDs": [ "2H5GFH3774.com.example.urlSchemePoc" ],
+                         "components": [
+                             {
+                                    "/": "/user",
+                                    "comment": "user"
+                             }
+                         ]
+                     }
+             ]
+     }
 }
