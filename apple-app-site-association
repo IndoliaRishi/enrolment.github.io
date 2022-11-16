@@ -1,1 +1,11 @@
-apple-app-site-association
+{
+  "applinks": {
+ 		        "apps": [],
+ 		        "details": [
+ 		            {
+ 		                "appID": "2H5GFH3774.com.example.urlSchemePoc",
+ 		                "paths": [ "*"]
+ 		            }
+ 		            ]
+ 		        }
+}
