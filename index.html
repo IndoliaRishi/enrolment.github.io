@@ -1,5 +1,23 @@
 <Html>    
 <Head>  
+    <style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {width: 250px;}
+.button2 {width: 50%;}
+.button3 {width: 100%;}
+</style>
 <title>  
  Enrolment page
 </title>  
@@ -10,8 +28,7 @@
 This is user enrolment page <br> <!-- The BR tag is used to break a line. -->  
 User has successfully enrolled! <br>  
 
-<button name="redirect" onClick="redirect()">
-
+<button class="button button1" name="redirect" onClick="redirect()"> Redirect</button>
     <script type="text/javascript">
     function redirect()
     {
@@ -19,7 +36,6 @@ User has successfully enrolled! <br>
     window.location.href=url;
     }
     </script>
-</button>
 </center>   
 </Body>  
 </Html>  
