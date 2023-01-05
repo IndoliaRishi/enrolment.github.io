@@ -28,8 +28,10 @@
 This is user authentication page <br> <!-- The BR tag is used to break a line. -->  
 User has successfully authenticated! <br>  
 
-<button class="button button1" name="redirect" onClick="redirect()"> Redirect</button>
-<button class="button button1" name="redirect" onClick="redirect1()"> Redirect</button>
+<button class="button button1" name="redirect" onClick="redirect()"> URLScheme</button>
+<button class="button button1" name="redirect" onClick="redirect1()"> URLScheme1</button>
+<button class="button button1" name="redirect" onClick="redirect2()"> URLScheme2</button>
+<button class="button button1" name="redirect" onClick="redirect3()"> URLScheme3</button>
 
     <script type="text/javascript">
     function redirect()
@@ -43,6 +45,19 @@ User has successfully authenticated! <br>
     var url = "ztnauserauth1://auth?token=1234";
     window.location.href=url;
     }
+
+    function redirect2()
+    {
+    var url = "ztnauserauth2://auth?token=1234";
+    window.location.href=url;
+    }
+
+    function redirect3()
+    {
+    var url = "ztnauserauth3://auth?token=1234";
+    window.location.href=url;
+    }
+
     </script>
 </center>   
 </Body>  
