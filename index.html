@@ -15,7 +15,7 @@
 }
 
 .button1 {width: 250px;}
-.button2 {width: 50%;}
+.button2 {width: 250%;}
 .button3 {width: 100%;}
 </style>
 <title>  
@@ -29,10 +29,18 @@ This is user authentication page <br> <!-- The BR tag is used to break a line. -
 User has successfully authenticated! <br>  
 
 <button class="button button1" name="redirect" onClick="redirect()"> Redirect</button>
+<button class="button button1" name="redirect" onClick="redirect1()"> Redirect</button>
+
     <script type="text/javascript">
     function redirect()
     {
     var url = "ztnauserauth://auth?token=1234";
+    window.location.href=url;
+    }
+
+    function redirect1()
+    {
+    var url = "https://google.com";
     window.location.href=url;
     }
     </script>
